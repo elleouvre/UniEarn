@@ -1,0 +1,83 @@
+/* Palette from the UniEarn Figma: navy + gold on a pale lavender background. */
+:root {
+  --navy: #131a41;
+  --navy-soft: #e6e8f7;
+  --gold: #d9a82b;
+  --gold-dark: #b98c1a;
+  --ink: #131a41;
+  --muted: #6b7190;
+  --line: #e1e4ee;
+  --bg: #f4f5fb;
+  --danger-bg: #fdeaea;
+  --danger: #a12626;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.5;
+}
+h1, h2 { margin: 0 0 .5rem; }
+.center-note { text-align: center; margin-top: 3rem; color: var(--muted); }
+
+.brand { font-size: 2.2rem; color: var(--navy); margin: 0; text-align: center; letter-spacing: -.02em; }
+.brand.small { font-size: 1.3rem; }
+.tagline { text-align: center; color: var(--muted); margin: .25rem 0 1.25rem; }
+
+.auth-page { max-width: 420px; margin: 0 auto; padding: 2rem 1rem; }
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: 12px;
+  padding: 1.25rem; margin-bottom: 1.25rem;
+}
+.card h2 { font-size: 1.2rem; }
+
+label { display: block; font-size: .9rem; font-weight: 600; margin: .9rem 0 .25rem; }
+input {
+  width: 100%; padding: .65rem .75rem; font-size: 1rem;
+  border: 1px solid var(--line); border-radius: 8px; background: #fff;
+}
+input:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; }
+
+button {
+  font: inherit; cursor: pointer; border-radius: 8px; border: 0;
+  padding: .7rem 1rem; background: var(--gold); color: var(--navy); font-weight: 700;
+}
+form > button[type="submit"] { width: 100%; margin-top: 1.25rem; }
+button:hover:not(:disabled) { background: var(--gold-dark); }
+button:disabled { opacity: .6; cursor: not-allowed; }
+button.ghost { background: transparent; color: var(--navy); border: 1px solid var(--navy); padding: .4rem .8rem; }
+button.ghost:hover { background: var(--navy-soft) !important; }
+
+.muted { color: var(--muted); font-size: .9rem; text-align: center; margin: 1rem 0 0; }
+a { color: var(--navy); font-weight: 600; }
+
+.error {
+  background: var(--danger-bg); color: var(--danger); border-radius: 8px;
+  padding: .6rem .75rem; margin-top: .75rem; font-size: .9rem;
+}
+
+.role-toggle { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+.role-toggle button { background: #fff; color: var(--ink); border: 1px solid var(--line); }
+.role-toggle button.active { background: var(--navy-soft); border-color: var(--navy); color: var(--navy); }
+
+.topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .75rem 1rem; background: #fff; border-bottom: 1px solid var(--line);
+}
+.dash-body { max-width: 760px; margin: 0 auto; padding: 1.5rem 1rem; }
+.pill {
+  display: inline-block; background: #fdf1cf; color: var(--navy);
+  border-radius: 999px; padding: .15rem .75rem; font-size: .85rem; font-weight: 600; margin-bottom: 1rem;
+}
+.profile { display: grid; grid-template-columns: max-content 1fr; gap: .4rem 1rem; margin: 0; }
+.profile dt { color: var(--muted); }
+.profile dd { margin: 0; }
+
+.tiles { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.tile {
+  text-align: left; background: #fff; color: var(--ink); border: 1px dashed var(--line);
+  display: flex; flex-direction: column; gap: .25rem;
+}
+.tile span { font-weight: 400; font-size: .85rem; color: var(--muted); }
