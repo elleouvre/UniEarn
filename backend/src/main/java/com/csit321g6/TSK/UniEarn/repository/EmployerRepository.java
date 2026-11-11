@@ -1,6 +1,6 @@
-package com.csit321section.groupname.projectname.repository;
+package com.csit321g6.TSK.UniEarn.repository;
 
-import com.csit321section.groupname.projectname.model.Employer;
+import com.csit321g6.TSK.UniEarn.model.Employer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

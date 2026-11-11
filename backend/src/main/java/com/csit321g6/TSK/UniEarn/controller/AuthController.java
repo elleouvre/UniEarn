@@ -1,7 +1,7 @@
-package com.csit321section.groupname.projectname.controller;
+package com.csit321g6.TSK.UniEarn.controller;
 
-import com.csit321section.groupname.projectname.dto.*;
-import com.csit321section.groupname.projectname.service.AuthService;
+import com.csit321g6.TSK.UniEarn.dto.*;
+import com.csit321g6.TSK.UniEarn.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;

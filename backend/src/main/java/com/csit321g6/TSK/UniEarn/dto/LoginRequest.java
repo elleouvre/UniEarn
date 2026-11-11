@@ -1,4 +1,4 @@
-package com.csit321section.groupname.projectname.dto;
+package com.csit321g6.TSK.UniEarn.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

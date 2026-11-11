@@ -1,7 +1,7 @@
-package com.csit321section.groupname.projectname.security;
+package com.csit321g6.TSK.UniEarn.security;
 
-import com.csit321section.groupname.projectname.model.User;
-import com.csit321section.groupname.projectname.repository.UserRepository;
+import com.csit321g6.TSK.UniEarn.model.User;
+import com.csit321g6.TSK.UniEarn.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

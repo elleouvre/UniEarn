@@ -12,10 +12,10 @@
     </parent>
 
     <!-- Required metadata -->
-    <groupId>com.csit321section.groupname</groupId>
-    <artifactId>projectname</artifactId>
+    <groupId>com.csit321g6.TSK</groupId>
+    <artifactId>UniEarn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>projectname</name>
+    <name>UniEarn</name>
     <description>UniEarn backend - Increment 1 (authentication)</description>
 
     <properties>

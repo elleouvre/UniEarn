@@ -1,4 +1,4 @@
-package com.csit321section.groupname.projectname.exception;
+package com.csit321g6.TSK.UniEarn.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;

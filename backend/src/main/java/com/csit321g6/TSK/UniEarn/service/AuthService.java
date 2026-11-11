@@ -1,9 +1,9 @@
-package com.csit321section.groupname.projectname.service;
+package com.csit321g6.TSK.UniEarn.service;
 
-import com.csit321section.groupname.projectname.dto.*;
-import com.csit321section.groupname.projectname.model.*;
-import com.csit321section.groupname.projectname.repository.*;
-import com.csit321section.groupname.projectname.security.JwtService;
+import com.csit321g6.TSK.UniEarn.dto.*;
+import com.csit321g6.TSK.UniEarn.model.*;
+import com.csit321g6.TSK.UniEarn.repository.*;
+import com.csit321g6.TSK.UniEarn.security.JwtService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.csit321section.groupname.projectname.dto;
+package com.csit321g6.TSK.UniEarn.dto;
 
-import com.csit321section.groupname.projectname.model.Role;
+import com.csit321g6.TSK.UniEarn.model.Role;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

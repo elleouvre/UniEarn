@@ -1,4 +1,4 @@
-package com.csit321section.groupname.projectname.model;
+package com.csit321g6.TSK.UniEarn.model;
 
 import jakarta.persistence.*;
 

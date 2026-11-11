@@ -1,6 +1,6 @@
-package com.csit321section.groupname.projectname.config;
+package com.csit321g6.TSK.UniEarn.config;
 
-import com.csit321section.groupname.projectname.security.JwtAuthFilter;
+import com.csit321g6.TSK.UniEarn.security.JwtAuthFilter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

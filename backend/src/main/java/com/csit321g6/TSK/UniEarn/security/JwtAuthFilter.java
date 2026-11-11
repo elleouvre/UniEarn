@@ -1,4 +1,4 @@
-package com.csit321section.groupname.projectname.security;
+package com.csit321g6.TSK.UniEarn.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

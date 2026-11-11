@@ -1,4 +1,4 @@
-package com.csit321section.groupname.projectname;
+package com.csit321g6.TSK.UniEarn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
